@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="all.min.css">
+    <link rel="stylesheet" href="brands.min.css">
+    <link rel="stylesheet" href="fontawesome.min.css">
+    <title>Bilyana's Kitchen | Home To Your Best Meals</title>
+</head>
+<body>
+    <header class="main-header2">
+        <nav>
+            <nav class="navigation-bar">
+                <a class="leftnavbar" href="index.html">
+                    <div >
+                <div class="box1">
+                    <img src="Images/logo.png" alt="logo" height="60px" width="60px">
+                </div>
+
+                <div class="box2">
+                    <header>BILYANA'S KITCHEN</header>
+                </div>
+                </a>
+            
+            
+            </div>
+            
+            <div id="rightNavigation" class="rightnavbar">
+
+                <i class="fa fa-window-close" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="order.html">Make Order</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+                
+            </div>
+            <i class="fa fa-home" onclick="showMenu()"></i>
+        </nav>
+        </nav>
+        
+    </header>
+
+    <section class="about">
+        <h1>About Bilyana's Kitchen</h1>
+
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis natus molestias recusandae esse eos veniam fugit? Nobis praesentium error minus. Ad hic soluta ea optio alias tempore perferendis reprehenderit natus!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea repudiandae consequuntur voluptas esse repellendus eum, voluptate, vitae officiis, veritatis possimus dolor optio perspiciatis suscipit velit amet ipsa animi inventore quisquam.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum dignissimos distinctio commodi quas omnis, velit ducimus assumenda sit blanditiis corrupti nulla incidunt placeat, itaque vitae maiores veniam amet excepturi iure?
+        </p>
+
+        <h3>Our Recipes</h3>
+        <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium voluptate reprehenderit incidunt quos, sapiente tenetur deleniti itaque reiciendis! Recusandae illum consequuntur quo delectus atque aliquam cumque saepe tenetur fugiat optio!
+        </p>
+
+        <h3>Our Customers</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi quam dignissimos, suscipit soluta eos odit amet aliquam placeat beatae repellendus fuga deserunt hic quae voluptates odio. Quod temporibus dolores aut!</p>
+
+        <div class="middle">
+            <a href="order.html">
+                <button class="btmbtn">Order Now</button>
+            </a>
+        </div>
+    </section>
+
+    <footer>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias saepe officia nemo voluptas deserunt pariatur ipsam ut! In voluptatem praesentium modi, beatae molestiae enim consequuntur blanditiis qui recusandae hic nobis?
+        </p>
+
+        <div class="icons">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-linkedin"></i>
+        </div>
+        
+        <p>@Bilyana Azi-Gwom</p>
+        
+        <p>
+            Copyright Moses Adang | 20221904
+        </p>
+        
+    </footer>
+
+
+
+
+    <!--JS for togglemenu-->
+    <script>
+        var navLinks = document.getElementById(rightNavigation);
+        function showMenu(){
+            rightNavigation.style.right = "0";
+        }
+        function hideMenu(){
+            rightNavigation.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>

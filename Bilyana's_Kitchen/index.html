@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="all.min.css">
+    <link rel="stylesheet" href="brands.min.css">
+    <link rel="stylesheet" href="fontawesome.min.css">
+    <title>Bilyana's Kitchen | Home To Your Best Meals</title>
+</head>
+<body>
+    <header class="main-header">
+        <nav>
+            <nav class="navigation-bar">
+                <a class="leftnavbar" href="index.html">
+                    <div >
+                <div class="box1">
+                    <img src="Images/logo.png" alt="logo" height="60px" width="60px">
+                </div>
+
+                <div class="box2">
+                    <header>BILYANA'S KITCHEN</header>
+                </div>
+                </a>
+            
+            
+            </div>
+            
+            <div id="rightNavigation" class="rightnavbar">
+
+                <i class="fa fa-window-close" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="order.html">Make Order</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+                
+            </div>
+            <i class="fa fa-home" onclick="showMenu()"></i>
+        </nav>
+        </nav>
+        
+
+        <section class="content">
+            <h1>FOOD! READY FOR YOU ALWAYS</h1>
+            <h3>Here At Bilyana's Kitchen, Your  Belly Is Our Main Priority</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet a quisquam quam eius tenetur accusamus assumenda facilis exercitationem nulla voluptatibus, incidunt, ullam, facere aspernatur dolores eos at dicta iste deserunt!</p>
+
+            <a href="order.html">
+                <button class="redbtn">Explore</button>
+            </a>
+        </section>
+    </header>
+
+    <section class="rest">
+        <h3>What we offer at Bilyana's</h3>
+
+        <div class="row">
+            <div class="col-text-red">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus rerum quisquam cupiditate enim beatae doloremque, omnis et laborum voluptatibus dicta nemo ab, repellendus optio nihil excepturi, laboriosam maiores sequi quia.</p>
+            </div>
+
+            <div class="col-img">
+                <img src="Images/background3.jpg" width="400px" height="300px" alt="">
+            </div>
+        </div>
+
+        <div class="row2">
+            <div class="col-img">
+                <img src="Images/background4.jpg"  width="400px" height="300px" alt="">
+            </div>
+
+            <div class="col-text-green">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore laboriosam at enim beatae quasi cumque porro cupiditate. Corporis nam ad rerum corrupti, debitis, nesciunt, dolore ea tenetur non molestiae neque.</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-text-red">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus rerum quisquam cupiditate enim beatae doloremque, omnis et laborum voluptatibus dicta nemo ab, repellendus optio nihil excepturi, laboriosam maiores sequi quia.</p>
+            </div>
+
+            <div class="col-img">
+                <img src="Images/background5.jpg" width="400px" height="300px" alt="">
+            </div>
+        </div>
+
+        <div class="row2">
+            <div class="col-img">
+                <img src="Images/background6.jpg"  width="400px" height="300px" alt="">
+            </div>
+
+            <div class="col-text-green">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore laboriosam at enim beatae quasi cumque porro cupiditate. Corporis nam ad rerum corrupti, debitis, nesciunt, dolore ea tenetur non molestiae neque.</p>
+            </div>
+        </div>
+
+        <div class="middle">
+            <a href="order.html">
+                <button class="btmbtn">Order Now</button>
+            </a>
+        </div>
+        
+    </section>
+
+    <footer>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias saepe officia nemo voluptas deserunt pariatur ipsam ut! In voluptatem praesentium modi, beatae molestiae enim consequuntur blanditiis qui recusandae hic nobis?
+        </p>
+
+        <div class="icons">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-linkedin"></i>
+        </div>
+        
+        <p>@Bilyana Azi-Gwom</p>
+        
+        <p>
+            Copyright Moses Adang | 20221904
+        </p>
+        
+    </footer>
+
+
+
+
+    <!--JS for togglemenu-->
+    <script>
+        var navLinks = document.getElementById(rightNavigation);
+        function showMenu(){
+            rightNavigation.style.right = "0";
+        }
+        function hideMenu(){
+            rightNavigation.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
