@@ -632,13 +632,18 @@ footer .finally{
 
 @media (max-width:800px) {
     .header{
-        height: 1000px;
+        height: 100vh;
     }
     
     .logo{
-        display:inline; 
         width: 100%;
+    }
+    .logo img{
+        position: relative;
+        display:inline; 
         padding: 0;
+        left: 50%;
+        transform: translateX(-50%);
     }
     .links{
         width: 100%;
@@ -671,8 +676,8 @@ footer .finally{
     }
 
     .container .hemi-sphere {
-    width: 25.75em;
-    height: 300px;
+        width: 25.75em;
+        height: 300px;
     }
     .h-sphere .container{
         padding: 0 50px;
@@ -687,11 +692,7 @@ footer .finally{
     .end .end1, .end2, .end3{
         margin-top: 100px;
     }
-    .header-footer .icons{
-        width: 100%;
-        margin: auto;
-        display: contents;
-    }
+    
 }
 
 @media (max-width:600px) {
@@ -703,8 +704,16 @@ footer .finally{
 
 @media (max-width:400px) {
     
-
-    .header-footer .next{
+    .header-footer{
         display: block;
+    }
+    .header-footer .next{
+        width: 100%;
+        display: contents;
+    }
+
+    .header-footer .icons{
+        width: 100%;
+        display: contents;
     }
 }
